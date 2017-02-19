@@ -2,15 +2,22 @@
   "name": "crawl",
   "version": "1.0.0",
   "description": "crawl big data",
-  "main": "index.js",
+  "main": "src/index.js",
   "dependencies": {
     "request": "^2.79.0",
     "request-promise-native": "^1.0.3"
   },
   "devDependencies": {
-    "eslint": "^3.15.0"
+    "chai": "^3.5.0",
+    "eslint": "^3.15.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-shell": "^0.5.2",
+    "mocha": "^3.2.0"
   },
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
