@@ -4,6 +4,7 @@
   "description": "crawl big data",
   "main": "src/index.js",
   "dependencies": {
+    "documentdb": "^1.10.2",
     "request": "^2.79.0",
     "request-promise-native": "^1.0.3"
   },

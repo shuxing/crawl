@@ -10,7 +10,7 @@
         "Promise": false
     },
     "parserOptions": {
-        "ecmaVersion": 7
+        "ecmaVersion": 8
     },
     "plugins": [],
     "rules": {
